@@ -1,3 +1,26 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://neoxolotl.github.io/blog/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My New Blog Site'
+theme = "m10c"
+
+[params]
+  author = "Fernando G. Sosa"
+  description = "A blog about all things technical."
+
+  [[params.social]]
+    icon = "github"
+    name = "GitHub"
+    url = "https://github.com/neoxolotl"
+
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/neoxolotl"
+
+  [[params.social]]
+    icon = "linkedin"
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/fernando-gabriel-sosa-439520a/"
+
+
+
