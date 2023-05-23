@@ -1,11 +1,11 @@
 baseURL = 'https://neoxolotl.github.io/blog/'
 languageCode = 'en-us'
-title = 'My New Blog Site'
+title = 'Blog Site'
 theme = "m10c"
 
 [params]
   author = "Fernando G. Sosa"
-  description = "A blog about all things technical."
+  description = "Fernando Sosa: A blog about all things technical."
 
   [[params.social]]
     icon = "github"
