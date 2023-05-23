@@ -1,6 +1,6 @@
 baseURL = 'https://neoxolotl.github.io/blog/'
 languageCode = 'en-us'
-title = 'Blog Site'
+title = 'fsosa blog'
 theme = "m10c"
 
 [params]
