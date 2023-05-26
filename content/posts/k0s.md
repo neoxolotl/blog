@@ -6,12 +6,7 @@ title: k0s
 Install k0s on premise between Ansible   
 ---
 
-
-<p>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSptfiRacpBB1Bjlz8sYKT4I0XeSW7mHAAtywLF7-K35jtbI4-i9z82c9Cy60NDVanjkfI&usqp=CAU" height="70" />
-</p>
-
-
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSptfiRacpBB1Bjlz8sYKT4I0XeSW7mHAAtywLF7-K35jtbI4-i9z82c9Cy60NDVanjkfI)
 
 Hello everyone. I think about kubernetes and is more usefull K0S for on-prem, and I began my small installations in PROXMOX 
 
