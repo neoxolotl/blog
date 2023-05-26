@@ -78,6 +78,6 @@ In /k0s-ansible/inventory/multipass/group_vars
 ansible-playbook site.yml -i inventory/multipass/inventory.yml
 ```
 8.) Enjoy....
-
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
 
