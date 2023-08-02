@@ -11,7 +11,7 @@ Install k0s on premise between Ansible
 Hello everyone. I think about kubernetes and is more usefull K0S for on-prem, and I began my small installations in PROXMOX 
 
 1.) Create a CT or VM. In my case CT , with "debian-10-turnkey-ansible_16.1-1_amd64.tar.gz"
-
+1.1) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxxxxxx
 2.) We will clone  https://github.com/movd/k0s-ansible.git from github
 
 ```shell
