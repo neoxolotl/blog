@@ -6,7 +6,7 @@ theme = "m10c"
 [params]
   author = "Fernando G. Sosa"
   description = "Fernando Sosa: A blog about all things technical."
-header_image = "images/header.jpg"  # Ruta a la imagen de encabezado
+header_image = "https://sosafernando.com/assets/img/logo.png"  # Ruta a la imagen de encabezado
 
 
   [[params.social]]
