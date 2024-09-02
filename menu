@@ -1,0 +1,63 @@
+#!/bin/bash
+
+# Función para mostrar el menú
+mostrar_menu() {
+    echo "1) Ejecutar Hugo en segundo plano"
+    echo "2) Crear una nueva entrada en Hugo"
+    echo "3) Modificar una entrada existente"
+    echo "4) Push"
+    echo "5) Salir"
+    echo -n "Selecciona una opción: "
+}
+
+# Función para ejecutar Hugo en segundo plano
+ejecutar_hugo() {
+    hugo server &
+    echo "Hugo se está ejecutando en segundo plano."
+}
+
+# Función para crear una nueva entrada en Hugo
+crear_nueva_entrada() {
+    echo -n "Introduce el nombre de la nueva entrada: "
+    read nombre
+    hugo new posts/"$nombre".md
+    echo "Entrada '$nombre' creada en /content/posts/"
+}
+# Function for push on github
+push_github(){
+   echo "enter name for push"
+   read name
+   git add . 
+   git commit -m "$name"
+   git push
+}
+
+# Función para modificar una entrada existente
+modificar_entrada() {
+    cd content/posts/ || exit
+    echo "Archivos disponibles:"
+    ls *.md
+    echo -n "Introduce el nombre del archivo que deseas editar: "
+    read archivo
+    if [ -f "$archivo" ]; then
+        nano "$archivo"
+    else
+        echo "El archivo no existe."
+    fi
+    cd - || exit
+}
+
+# Bucle para mostrar el menú y ejecutar las opciones
+while true; do
+    mostrar_menu
+    read opcion
+    case $opcion in
+        1) ejecutar_hugo ;;
+        2) crear_nueva_entrada ;;
+        3) modificar_entrada ;;
+	4) push_github ;;
+        5) echo "Saliendo..."; exit 0 ;;
+        *) echo "Opción no válida." ;;
+    esac
+done
+
