@@ -5,4 +5,4 @@ linktitle: About
 title: About
 ---
 
-I'm \***\*Fernando\*\***, a Software Programer DevOps and Blockchain develop.
+I'm \***\*Fernando\*\***, a Software Programer DevOps and Blockchain develop..
