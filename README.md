@@ -8,7 +8,11 @@ hugo server
 Create New Entry blog 
 ----------------------
 
-hugo create posts/Newpost.md
+
+hugo new posts/wireguard.md
+
+
+
 
 
 -------------------
