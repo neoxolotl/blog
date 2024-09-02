@@ -28,7 +28,7 @@ services:
     image: mariadb:10
     restart: always
     environment:
-      - MYSQL_ROOT_PASSWORD=Pass02!a
+      - MYSQL_ROOT_PASSWORD=Pass
       - MYSQL_DATABASE=gitea
       - MYSQL_USER=gitea
       - MYSQL_PASSWORD=Password
