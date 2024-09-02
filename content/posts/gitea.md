@@ -1,12 +1,13 @@
 ---
 title: "Gitea"
-date: 2024-09-02T11:32:09Z
+date: 2024-09-02T18:21:31-03:00
 draft: true
 ---
 
-Gitea docker-compose up in one step
+Gitea is your own Git 
 
 ```shell
+
 version: '2'
 services:
   web:
@@ -29,4 +30,10 @@ services:
       - MYSQL_PASSWORD=Pass02!a
     volumes:
       - ./db/:/var/lib/mysql
+
+
 ```
+
+Enjoy
+
+
