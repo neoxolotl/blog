@@ -2,54 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>fsosa blog</title>
-    <link>https://neoxolotl.github.io/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on fsosa blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Aug 2022 13:47:43 +0000</lastBuildDate><atom:link href="https://neoxolotl.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 13:47:43 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>k0s</title>
-      <link>https://neoxolotl.github.io/blog/posts/k0s/</link>
+      <link>http://localhost:1313/blog/posts/k0s/</link>
       <pubDate>Tue, 23 Aug 2022 13:47:43 +0000</pubDate>
-      
-      <guid>https://neoxolotl.github.io/blog/posts/k0s/</guid>
-      <description>Install k0s on premise between Ansible Hello everyone. I think about kubernetes and is more usefull K0S for on-prem, and I began my small installations in PROXMOX
-1.) Create a CT or VM. In my case CT , with &amp;ldquo;debian-10-turnkey-ansible_16.1-1_amd64.tar.gz&amp;rdquo; 2.) We will clone https://github.com/movd/k0s-ansible.git from github
-git clone https://github.com/movd/k0s-ansible.git 3.) Go to inventory
-cd k0s-ansible/inventory 4.) create directory Multipass
-mkdir Multipass 5.) Create inventory.yml, where you define masters workers in k0s</description>
+      <guid>http://localhost:1313/blog/posts/k0s/</guid>
+      <description>Install k0s on premise between Ansible Hello everyone. I think about kubernetes and is more usefull K0S for on-prem, and I began my small installations in PROXMOX&#xA;1.) Create a CT or VM. In my case CT , with &amp;ldquo;debian-10-turnkey-ansible_16.1-1_amd64.tar.gz&amp;rdquo; 2.) We will clone https://github.com/movd/k0s-ansible.git from github&#xA;git clone https://github.com/movd/k0s-ansible.git 3.) Go to inventory&#xA;cd k0s-ansible/inventory 4.) create directory Multipass&#xA;mkdir Multipass 5.) Create inventory.yml, where you define masters workers in k0s</description>
     </item>
-    
     <item>
       <title>Portainer</title>
-      <link>https://neoxolotl.github.io/blog/posts/portainer/</link>
+      <link>http://localhost:1313/blog/posts/portainer/</link>
       <pubDate>Tue, 23 Aug 2022 13:47:43 +0000</pubDate>
-      
-      <guid>https://neoxolotl.github.io/blog/posts/portainer/</guid>
-      <description>Portainer an Easy Explorer You can explore all dockers pods and images
-Here source Code
-version: &amp;#39;3&amp;#39; services: portainer: image: portainer/portainer-ce:latest container_name: portainer restart: unless-stopped security_opt: - no-new-privileges:true volumes: - /etc/localtime:/etc/localtime:ro - /var/run/docker.sock:/var/run/docker.sock:ro - ./portainer-data:/data ports: - 9000:9000 this is all after that can you see in your browser.</description>
+      <guid>http://localhost:1313/blog/posts/portainer/</guid>
+      <description>Portainer an Easy Explorer You can explore all dockers pods and images&#xA;Here source Code&#xA;version: &amp;#39;3&amp;#39; services: portainer: image: portainer/portainer-ce:latest container_name: portainer restart: unless-stopped security_opt: - no-new-privileges:true volumes: - /etc/localtime:/etc/localtime:ro - /var/run/docker.sock:/var/run/docker.sock:ro - ./portainer-data:/data ports: - 9000:9000 this is all after that can you see in your browser.</description>
     </item>
-    
     <item>
       <title>Syncthing</title>
-      <link>https://neoxolotl.github.io/blog/posts/syncthing/</link>
+      <link>http://localhost:1313/blog/posts/syncthing/</link>
       <pubDate>Tue, 23 Aug 2022 13:47:43 +0000</pubDate>
-      
-      <guid>https://neoxolotl.github.io/blog/posts/syncthing/</guid>
-      <description>Syncthing an p2p Sync Usefull for move differents configurations to another servers.
-Here source Code
-version: &amp;#34;2&amp;#34; services: syncthing: image: linuxserver/syncthing container_name: syncthing environment: - PUID=1000 - PGID=1000 - TZ=Europe/London - UMASK_SET=022 volumes: - ./appdata/config:/config - ./data1:/data1 - ./data2:/data2 ports: - 8384:8384 - 22000:22000 - 21027:21027/udp restart: unless-stopped this is all after that can you see in your browser. Only need open the port 8384. Remember add your data access user and password.</description>
+      <guid>http://localhost:1313/blog/posts/syncthing/</guid>
+      <description>Syncthing an p2p Sync Usefull for move differents configurations to another servers.&#xA;Here source Code&#xA;version: &amp;#34;2&amp;#34; services: syncthing: image: linuxserver/syncthing container_name: syncthing environment: - PUID=1000 - PGID=1000 - TZ=Europe/London - UMASK_SET=022 volumes: - ./appdata/config:/config - ./data1:/data1 - ./data2:/data2 ports: - 8384:8384 - 22000:22000 - 21027:21027/udp restart: unless-stopped this is all after that can you see in your browser. Only need open the port 8384. Remember add your data access user and password.</description>
     </item>
-    
     <item>
       <title>About</title>
-      <link>https://neoxolotl.github.io/blog/posts/about/</link>
+      <link>http://localhost:1313/blog/posts/about/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://neoxolotl.github.io/blog/posts/about/</guid>
+      <guid>http://localhost:1313/blog/posts/about/</guid>
       <description>I&amp;rsquo;m **Fernando**, a Software Programer DevOps and Blockchain develop..</description>
     </item>
-    
   </channel>
 </rss>

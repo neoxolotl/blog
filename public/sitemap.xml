@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://neoxolotl.github.io/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2024-09-02T11:55:10+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/</loc>
+    <lastmod>2024-09-02T11:55:10+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/k0s/</loc>
     <lastmod>2022-08-23T13:47:43+00:00</lastmod>
   </url><url>
-    <loc>https://neoxolotl.github.io/blog/posts/k0s/</loc>
+    <loc>http://localhost:1313/blog/posts/portainer/</loc>
     <lastmod>2022-08-23T13:47:43+00:00</lastmod>
   </url><url>
-    <loc>https://neoxolotl.github.io/blog/posts/portainer/</loc>
+    <loc>http://localhost:1313/blog/posts/syncthing/</loc>
     <lastmod>2022-08-23T13:47:43+00:00</lastmod>
   </url><url>
-    <loc>https://neoxolotl.github.io/blog/posts/</loc>
-    <lastmod>2022-08-23T13:47:43+00:00</lastmod>
-  </url><url>
-    <loc>https://neoxolotl.github.io/blog/posts/syncthing/</loc>
-    <lastmod>2022-08-23T13:47:43+00:00</lastmod>
-  </url><url>
-    <loc>https://neoxolotl.github.io/blog/posts/about/</loc>
+    <loc>http://localhost:1313/blog/posts/about/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neoxolotl.github.io/blog/categories/</loc>
+    <loc>http://localhost:1313/blog/categories/</loc>
   </url><url>
-    <loc>https://neoxolotl.github.io/blog/tags/</loc>
+    <loc>http://localhost:1313/blog/tags/</loc>
   </url>
 </urlset>
