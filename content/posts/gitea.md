@@ -1,7 +1,7 @@
 ---
 title: "Gitea"
 date: 2024-09-02T18:21:31-03:00
-draft: true
+draft: false
 ---
 
 Gitea is your own Git 
