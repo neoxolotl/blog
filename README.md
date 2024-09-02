@@ -1,7 +1,16 @@
 # blog
 
+Run Server
+----------
+
 hugo server
 
-From blog 
+Create New Entry blog 
+----------------------
+
 hugo create posts/Newpost.md
+
+
+-------------------
+git add static/logo.png config.toml
 
