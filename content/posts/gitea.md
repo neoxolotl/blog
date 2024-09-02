@@ -1,6 +1,6 @@
 ---
 title: "Gitea"
-date: 2024-08-23T13:47:43Z
+date: 2024-09-01T23:47:43Z
 title: Syncthing
 ---
 Gitea Git Free
@@ -33,7 +33,7 @@ services:
       - MYSQL_ROOT_PASSWORD=Pass02!a
       - MYSQL_DATABASE=gitea
       - MYSQL_USER=gitea
-      - MYSQL_PASSWORD=Pass02!a
+      - MYSQL_PASSWORD=Password
     volumes:
       - ./db/:/var/lib/mysql
 ```
