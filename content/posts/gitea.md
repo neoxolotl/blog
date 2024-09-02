@@ -1,15 +1,10 @@
 ---
 title: "Gitea"
-date: 2024-09-01T23:47:43Z
-title: Syncthing
----
-Gitea Git Free
+date: 2024-09-02T11:32:09Z
+draft: true
 ---
 
-Usefull Git tools in your own home
-
-
-Here source Code 
+Gitea docker-compose up in one step
 
 ```shell
 version: '2'
@@ -28,12 +23,10 @@ services:
     image: mariadb:10
     restart: always
     environment:
-      - MYSQL_ROOT_PASSWORD=Pass
+      - MYSQL_ROOT_PASSWORD=Pass02!a
       - MYSQL_DATABASE=gitea
       - MYSQL_USER=gitea
-      - MYSQL_PASSWORD=Password
+      - MYSQL_PASSWORD=Pass02!a
     volumes:
       - ./db/:/var/lib/mysql
 ```
-
-this is all after that can you see in your browser. Only need open the port 3000. Remember add your data access user and password. 
