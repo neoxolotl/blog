@@ -4,7 +4,7 @@ date: 2024-09-02T18:21:31-03:00
 draft: false
 ---
 
-Gitea is your own Git 
+Gitea is your own Git version. If you want ci-cd, you need apply drone.io
 
 ```shell
 
