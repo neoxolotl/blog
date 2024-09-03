@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en-us">
-  <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+  <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=33941&amp;path=blog/livereload" data-no-instant defer></script>
     <title>Syncthing // fsosa blog</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
@@ -22,7 +22,7 @@
 Here source Code
 version: &#34;2&#34; services: syncthing: image: linuxserver/syncthing container_name: syncthing environment: - PUID=1000 - PGID=1000 - TZ=Europe/London - UMASK_SET=022 volumes: - ./appdata/config:/config - ./data1:/data1 - ./data2:/data2 ports: - 8384:8384 - 22000:22000 - 21027:21027/udp restart: unless-stopped this is all after that can you see in your browser. Only need open the port 8384. Remember add your data access user and password.">
 
-    <meta property="og:url" content="http://localhost:1313/blog/posts/syncthing/">
+    <meta property="og:url" content="http://localhost:33941/blog/posts/syncthing/">
   <meta property="og:site_name" content="fsosa blog">
   <meta property="og:title" content="Syncthing">
   <meta property="og:description" content="Syncthing an p2p Sync Usefull for move differents configurations to another servers.
@@ -38,7 +38,7 @@ version: &#34;2&#34; services: syncthing: image: linuxserver/syncthing container
   </head>
   <body>
     <header class="app-header">
-      <a href="http://localhost:1313/blog/"><img class="app-header-avatar" src="/blog/avatar.jpg" alt="Fernando G. Sosa" /></a>
+      <a href="http://localhost:33941/blog/"><img class="app-header-avatar" src="/blog/avatar.jpg" alt="Fernando G. Sosa" /></a>
       <span class="app-header-title">fsosa blog</span>
       <p>Fernando Sosa: A blog about all things technical.</p>
       <div class="app-header-social">

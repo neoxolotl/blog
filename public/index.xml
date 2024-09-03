@@ -2,52 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>fsosa blog</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>http://localhost:33941/blog/</link>
     <description>Recent content on fsosa blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Sep 2024 20:11:05 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Sep 2024 20:24:38 -0300</lastBuildDate>
+    <atom:link href="http://localhost:33941/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cacti</title>
+      <link>http://localhost:33941/blog/posts/cacti/</link>
+      <pubDate>Mon, 02 Sep 2024 20:24:38 -0300</pubDate>
+      <guid>http://localhost:33941/blog/posts/cacti/</guid>
+      <description>Here is a easy monitoring system user admin password admin&#xA;version: &amp;#39;2&amp;#39; services: cacti: image: &amp;#34;mrlesmithjr/cacti:latest&amp;#34; depends_on: - &amp;#34;db&amp;#34; links: - &amp;#34;db&amp;#34; ports: - &amp;#34;89:80&amp;#34; - &amp;#34;443:443&amp;#34; volumes: - &amp;#34;config:/config&amp;#34; restart: &amp;#34;always&amp;#34; environment: CACTI_DB: &amp;#34;cactidb&amp;#34; CACTI_DB_HOST: &amp;#34;db&amp;#34; CACTI_DB_PASSWORD: &amp;#34;cacti&amp;#34; CACTI_DB_USER: &amp;#34;cactiuser&amp;#34; CACTI_USER: &amp;#34;cactiuser&amp;#34; CACTI_USER_PASSWORD: &amp;#34;cacti&amp;#34; db: image: &amp;#34;mrlesmithjr/mysql:latest&amp;#34; volumes: - &amp;#34;db:/var/lib/mysql&amp;#34; restart: &amp;#34;always&amp;#34; environment: MYSQL_ROOT_PASSWORD: &amp;#34;cacti&amp;#34; MYSQL_DATABASE: &amp;#34;cactidb&amp;#34; MYSQL_USER: &amp;#34;cactiuser&amp;#34; MYSQL_PASSWORD: &amp;#34;cacti&amp;#34; volumes: config: db: </description>
+    </item>
     <item>
       <title>Wireguard</title>
-      <link>http://localhost:1313/blog/posts/wireguard/</link>
+      <link>http://localhost:33941/blog/posts/wireguard/</link>
       <pubDate>Mon, 02 Sep 2024 20:11:05 -0300</pubDate>
-      <guid>http://localhost:1313/blog/posts/wireguard/</guid>
+      <guid>http://localhost:33941/blog/posts/wireguard/</guid>
       <description>WireGuard Is your Own VPN Server. Deploy to any cloud provider and after that you can connect between differents apps&#xA;version: &amp;#39;3.3&amp;#39; services: wireguard: image: linuxserver/wireguard container_name: wireguard cap_add: - NET_ADMIN - SYS_MODULE environment: - PUID=1000 - PGID=1000 - TZ=America/Mendoza - SERVERURL=192.168.1.100 #optional here is Your public IP - SERVERPORT=51820 #optional - PEERS=2 #optional here peers account - PEERDNS=auto #optional - INTERNAL_SUBNET=10.0.0.145 #optional volumes: - /root/wireguard:/config - /lib/modules:/lib/modules - /usr/src:/usr/src ports: - 51820:51820/udp sysctls: - net.</description>
     </item>
     <item>
       <title>Gitea</title>
-      <link>http://localhost:1313/blog/posts/gitea/</link>
+      <link>http://localhost:33941/blog/posts/gitea/</link>
       <pubDate>Mon, 02 Sep 2024 18:21:31 -0300</pubDate>
-      <guid>http://localhost:1313/blog/posts/gitea/</guid>
+      <guid>http://localhost:33941/blog/posts/gitea/</guid>
       <description>Gitea is your own Git version. If you want ci-cd, you need apply drone.io&#xA;version: &amp;#39;2&amp;#39; services: web: image: gitea/gitea:1.7.1 volumes: - ./data:/data ports: - &amp;#34;3000:3000&amp;#34; - &amp;#34;2233:2233&amp;#34; depends_on: - db restart: always db: image: mariadb:10 restart: always environment: - MYSQL_ROOT_PASSWORD=Pass02!a - MYSQL_DATABASE=gitea - MYSQL_USER=gitea - MYSQL_PASSWORD=Pass02!a volumes: - ./db/:/var/lib/mysql Enjoy</description>
     </item>
     <item>
       <title>k0s</title>
-      <link>http://localhost:1313/blog/posts/k0s/</link>
+      <link>http://localhost:33941/blog/posts/k0s/</link>
       <pubDate>Tue, 23 Aug 2022 13:47:43 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/k0s/</guid>
+      <guid>http://localhost:33941/blog/posts/k0s/</guid>
       <description>Install k0s on premise between Ansible Hello everyone. I think about kubernetes and is more usefull K0S for on-prem, and I began my small installations in PROXMOX&#xA;1.) Create a CT or VM. In my case CT , with &amp;ldquo;debian-10-turnkey-ansible_16.1-1_amd64.tar.gz&amp;rdquo; 2.) We will clone https://github.com/movd/k0s-ansible.git from github&#xA;git clone https://github.com/movd/k0s-ansible.git 3.) Go to inventory&#xA;cd k0s-ansible/inventory 4.) create directory Multipass&#xA;mkdir Multipass 5.) Create inventory.yml, where you define masters workers in k0s</description>
     </item>
     <item>
       <title>Portainer</title>
-      <link>http://localhost:1313/blog/posts/portainer/</link>
+      <link>http://localhost:33941/blog/posts/portainer/</link>
       <pubDate>Tue, 23 Aug 2022 13:47:43 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/portainer/</guid>
+      <guid>http://localhost:33941/blog/posts/portainer/</guid>
       <description>Portainer an Easy Explorer You can explore all dockers pods and images&#xA;Here source Code&#xA;version: &amp;#39;3&amp;#39; services: portainer: image: portainer/portainer-ce:latest container_name: portainer restart: unless-stopped security_opt: - no-new-privileges:true volumes: - /etc/localtime:/etc/localtime:ro - /var/run/docker.sock:/var/run/docker.sock:ro - ./portainer-data:/data ports: - 9000:9000 this is all after that can you see in your browser.</description>
     </item>
     <item>
       <title>Syncthing</title>
-      <link>http://localhost:1313/blog/posts/syncthing/</link>
+      <link>http://localhost:33941/blog/posts/syncthing/</link>
       <pubDate>Tue, 23 Aug 2022 13:47:43 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/syncthing/</guid>
+      <guid>http://localhost:33941/blog/posts/syncthing/</guid>
       <description>Syncthing an p2p Sync Usefull for move differents configurations to another servers.&#xA;Here source Code&#xA;version: &amp;#34;2&amp;#34; services: syncthing: image: linuxserver/syncthing container_name: syncthing environment: - PUID=1000 - PGID=1000 - TZ=Europe/London - UMASK_SET=022 volumes: - ./appdata/config:/config - ./data1:/data1 - ./data2:/data2 ports: - 8384:8384 - 22000:22000 - 21027:21027/udp restart: unless-stopped this is all after that can you see in your browser. Only need open the port 8384. Remember add your data access user and password.</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/blog/posts/about/</link>
+      <link>http://localhost:33941/blog/posts/about/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/about/</guid>
+      <guid>http://localhost:33941/blog/posts/about/</guid>
       <description>I&amp;rsquo;m **Fernando**, a Software Programer DevOps and Blockchain develop..</description>
     </item>
   </channel>

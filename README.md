@@ -1,5 +1,10 @@
 # blog
 
+Themes
+-------
+https://github.com/gohugoio/hugoThemes/blob/master/README.md
+
+
 Run Server
 ----------
 
