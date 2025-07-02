@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
-  pull_request:
 
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-latest
+    environment: github-pages
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -25,13 +25,17 @@ jobs:
       - name: Build site
         run: hugo --minify
 
-      - name: Debug - List output files
-        run: ls -la public/
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          cname: blog.sosafernando.com
+          path: public
+
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v2
