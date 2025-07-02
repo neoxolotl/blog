@@ -1,0 +1,28 @@
+baseURL = 'https://neoxolotl.github.io/blog/'
+languageCode = 'en-us'
+title = 'fsosa blog'
+theme = "m10c"
+
+[params]
+  author = "Fernando G. Sosa"
+  description = "Fernando Sosa: A blog about all things technical."
+header_image = "logo.png"  # Ruta a la imagen de encabezado...kkk 
+
+
+  [[params.social]]
+    icon = "github"
+    name = "GitHub"
+    url = "https://github.com/neoxolotl"
+
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/neoxolotl"
+
+  [[params.social]]
+    icon = "linkedin"
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/fernando-gabriel-sosa-439520a/"
+
+
+
